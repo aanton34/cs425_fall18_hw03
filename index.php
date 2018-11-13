@@ -7,9 +7,11 @@
     <meta name="keywords" content="HW3, CS425, Fall2018, PHP, Home Page">
     <meta name="author" content="Antonia Antoniou">
     <meta name="description" content="Homework 3 for CS425 Fall2018, University of Cyprus - Home Page">
-    <link rel="shortcut icon" href="favicon/question_block"/>
+    <link rel="shortcut icon" href="favicon/question_block">
 </head>
 <body>
-    
+    <h1>Welcome!</h1>
+    <h3>CS 425 - Questions Game</h3>
+    <button id="start">Start</button>
 </body>
 </html>
