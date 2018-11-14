@@ -1,0 +1,61 @@
+/* NAVIGATION BAR */
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 99;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    /* Add a black background color to the top navigation */
+    background-color: #3B5998;
+}
+/* Style the links inside the navigation bar */
+#navbar li a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+/* Change the color of navigation links on hover */
+#navbar li a:hover:not(.active) {
+    opacity: 0.7;
+}
+/* Responsive Navigation Bar */
+@media screen and (max-width: 600px) {
+    #navbar li a {
+        float: none;
+        display: block;
+    }
+}
+/* --------------------------------------------------------- */
+/* BACK_TO_TOP BUTTON */
+#myBtn {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #3B5998;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    text-decoration: none;
+}
+/* Change the color of links on hover */
+#myBtn:hover {
+    background-color: #555;
+}
+/* --------------------------------------------------------- */
+/* CONTAINER */
+.container{
+    margin-top: 60px;
+}

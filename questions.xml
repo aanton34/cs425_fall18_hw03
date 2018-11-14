@@ -1,388 +1,390 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<easy>
-    <questions>
-        <Question Number="1" Text="What is the most appropriate data structure for modelling the Internet?">
-            <Answer><Item>Binary Tree</Item><Correct>False</Correct></Answer>
-            <Answer><Item>List</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Graph</Item><Correct>True</Correct></Answer>
-        </Question>
-        <Question Number="2" Text="What are the key components of the Internet?">
-            <Answer><Item>End-to-End Architecture, IP Addresses, DNS, Hourglass Architecture</Item><Correct>True</Correct></Answer>
-            <Answer><Item>IP Addresses, DNS, Hourglass Architecture</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Hourglass Architecture, TCP/IP, End-to-End Design</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="3" Text="What is the Internet?">
-            <Answer><Item>A rich set of interconnected web pages and services</Item><Correct>False</Correct></Answer>
-            <Answer><Item>A network that interconnects multiple computer networks</Item><Correct>True</Correct></Answer>
-            <Answer><Item>A browser programrunning on PCs, tablets and mobile devices</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="4" Text="Which of the following protocols are end-to-end?">
-            <Answer><Item>TCP, UDP, IP, HTTP</Item><Correct>False</Correct></Answer>
-            <Answer><Item>HTTP, IP</Item><Correct>False</Correct></Answer>
-            <Answer><Item>TCP, UDP, HTTP</Item><Correct>True</Correct></Answer> 
-        </Question>
-        <Question Number="5" Text="What is an Autonomous System?">
-            <Answer><Item>All the ISPs of a country</Item><Correct>False</Correct></Answer>
-            <Answer><Item>A set of IP addresses with a common prefix</Item><Correct>False</Correct></Answer>
-            <Answer><Item>An "area" of the Internet under a common operator</Item><Correct>True</Correct></Answer> 
-        </Question>
-        <Question Number="6" Text="What are the basic elements of the WWW?">
-            <Answer><Item>Client/Server Architecture, URIs/URLs, HTTP</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Peer-to-Peer Architecture, URIs/URLs, HTTP, Markup Languages</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Client/Server Architecture, URIs/URLs, HTTP, Markup Languages</Item><Correct>True</Correct></Answer> 
-        </Question>
-        <Question Number="7" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="8" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="9" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="10" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="11" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="12" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="13" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="14" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="15" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="16" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="17" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="18" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="19" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="20" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="21" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="22" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="23" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="24" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="25" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-    </questions>
-</easy>
-<medium>
-    <questions>
-        <Question Number="1" Text="What are the Computer science concepts thar underline DNS?">
-            <Answer><Item>Indirection, Hierarchy, Caching</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Hierarchy, Caching, Fast response</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Indirection, Cashing, Graph Structure</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="2" Text="How many DNS root servers exist?">
-            <Answer><Item>12</Item><Correct>False</Correct></Answer>
-            <Answer><Item>13</Item><Correct>True</Correct></Answer>
-            <Answer><Item>14</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="3" Text="What is the hierarchical sequence of URI components?">
-            <Answer><Item>Scheme, Authority, Path, Query</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Scheme, Authority, Path, Query, Fragment</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Scheme, Path, Query, Segment</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="4" Text="What interactions can be made through a URI?">
-            <Answer><Item>Resolution, Dereference, Retrieval</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Resolution, Retrieval</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Resolution, Dereference</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="5" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="6" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="7" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="8" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="9" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="10" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="11" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="12" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="13" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="14" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="15" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="16" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="17" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="18" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="19" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="20" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="21" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="22" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="23" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="24" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="25" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-    </questions>
-</medium>
-<hard>
-    <questions>
-        <Question Number="1" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="2" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="3" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="4" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="5" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="6" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="7" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="8" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="9" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="10" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="11" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="12" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="13" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="14" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="15" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="16" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="17" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="18" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="19" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="20" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="21" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="22" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="23" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="24" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-        <Question Number="25" Text="question">
-            <Answer><Item>First choice</Item><Correct>False</Correct></Answer>
-            <Answer><Item>Second Choice</Item><Correct>True</Correct></Answer>
-            <Answer><Item>Third Choice</Item><Correct>False</Correct></Answer> 
-        </Question>
-    </questions>
-</hard>
+<quiz>
+	<easy>
+	    <questions>
+		<Question Text="What is the most appropriate data structure for modelling the Internet?">
+		    <answer Correct="false">Binary Tree</answer>
+		    <answer Correct="false">List</answer>
+		    <answer Correct="true">Graph</answer>
+		</Question>
+		<Question Text="What are the key components of the Internet?">
+		    <answer Correct="true">End-to-End Architecture, IP Addresses, DNS, Hourglass Architecture</answer>
+		    <answer Correct="false">IP Addresses, DNS, Hourglass Architecture</answer>
+		    <answer Correct="false">Hourglass Architecture, TCP/IP, End-to-End Design</answer>
+		</Question>
+		<Question Text="What is the Internet?">
+		    <answer Correct="false">A rich set of interconnected web pages and services</answer>
+		    <answer Correct="true">A network that interconnects multiple computer networks</answer>
+		    <answer Correct="false">A browser programrunning on PCs, tablets and mobile devices</answer>
+		</Question>
+		<Question Text="Which of the following protocols are end-to-end?">
+		    <answer Correct="false">TCP, UDP, IP, HTTP</answer>
+		    <answer Correct="false">HTTP, IP</answer>
+		    <answer Correct="true">TCP, UDP, HTTP</answer>
+		</Question>
+		<Question Text="What is an Autonomous System?">
+		    <answer Correct="false">All the ISPs of a country</answer>
+		    <answer Correct="false">A set of IP addresses with a common prefix</answer>
+		    <answer Correct="true">An "area" of the Internet under a common operator</answer>
+		</Question>
+		<Question Text="What are the basic elements of the WWW?">
+		    <answer Correct="false">Client/Server Architecture, URIs/URLs, HTTP</answer>
+		    <answer Correct="false">Peer-to-Peer Architecture, URIs/URLs, HTTP, Markup Languages</answer>
+		    <answer Correct="true">Client/Server Architecture, URIs/URLs, HTTP, Markup Languages</answer>
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+	    </questions>
+	</easy>
+	<medium>
+	    <questions>
+		<Question Text="What are the Computer science concepts thar underline DNS?">
+		    <answer Correct="true">Indirection, Hierarchy, Caching</answer>
+		    <answer Correct="false">Hierarchy, Caching, Fast response</answer>
+		    <answer Correct="false">Indirection, Cashing, Graph Structure</answer>
+		</Question>
+		<Question Text="How many DNS root servers exist?">
+		    <answer Correct="false">12</answer>
+		    <answer Correct="true">13</answer>
+		    <answer Correct="false">14</answer>
+		</Question>
+		<Question Text="What is the hierarchical sequence of URI components?">
+		    <answer Correct="false">Scheme, Authority, Path, Query</answer>
+		    <answer Correct="true">Scheme, Authority, Path, Query, Fragment</answer>
+		    <answer Correct="false">Scheme, Path, Query, Segment</answer>
+		</Question>
+		<Question Text="What interactions can be made through a URI?">
+		    <answer Correct="true">Resolution, Dereference, Retrieval</answer>
+		    <answer Correct="false">Resolution, Retrieval</answer>
+		    <answer Correct="false">Resolution, Dereference</answer>
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+	    </questions>
+	</medium>
+	<hard>
+	    <questions>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer> 
+		</Question>
+		<Question Text="question">
+		    <answer Correct="false">First choice</answer>
+		    <answer Correct="true">Second Choice</answer>
+		    <answer Correct="false">Third choice</answer>  
+		</Question>
+	    </questions>
+	</hard>
+</quiz>
