@@ -15,7 +15,7 @@
 		<Question Text="What is the Internet?">
 		    <answer Correct="false">A rich set of interconnected web pages and services</answer>
 		    <answer Correct="true">A network that interconnects multiple computer networks</answer>
-		    <answer Correct="false">A browser programrunning on PCs, tablets and mobile devices</answer>
+		    <answer Correct="false">A browser program running on PCs, tablets and mobile devices</answer>
 		</Question>
 		<Question Text="Which of the following protocols are end-to-end?">
 		    <answer Correct="false">TCP, UDP, IP, HTTP</answer>
@@ -32,100 +32,100 @@
 		    <answer Correct="false">Peer-to-Peer Architecture, URIs/URLs, HTTP, Markup Languages</answer>
 		    <answer Correct="true">Client/Server Architecture, URIs/URLs, HTTP, Markup Languages</answer>
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the tiers of 3-tier Architecture in Web and Client/Server Architecture?">
+		    <answer Correct="false">Web Server, Application Server and Database</answer>
+		    <answer Correct="true">Presentation, Business Logic, Persistent</answer>
+		    <answer Correct="false">Server, Client, Database</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following answers is not a Software Element of the Web?">
+		    <answer Correct="false">Client Programs</answer>
+		    <answer Correct="true">Routers</answer>
+		    <answer Correct="false">Server Programs</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following is not correct about a cluster?">
+		    <answer Correct="true">The cost of the hardare is the biggest of all</answer>
+		    <answer Correct="false">Clusters are providing (largely) independent faults</answer>
+		    <answer Correct="false">Clusters support network scalability</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the availabiity metrics for a Giant-Scale System?">
+		    <answer Correct="false">Uptime, Yield and Meantime Between Failures (MTBF)</answer>
+		    <answer Correct="true">Uptime, Yield and Harvest</answer>
+		    <answer Correct="false">Uptime, Yield, Meantime Between Failures (MTBF) and Meantime to Repair (MTTR)</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the DQ Principle?">
+		    <answer Correct="false">Data Transmissioned x Queries Served </answer>
+		    <answer Correct="false">Data per Query x Queries Served</answer>
+		    <answer Correct="true">Data per Query x Queries per Second</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Which statement is correct?">
+		    <answer Correct="false">Yield is equivalent to uptime - both metrics represent the same thing</answer>
+		    <answer Correct="false">Internet traffic renders uptime a better metric than yield</answer>
+		    <answer Correct="true">Internet traffic renders yield more useful metric than uptime</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Which of the following is not an HTTP command?">
+		    <answer Correct="true">RETRIEVE</answer>
+		    <answer Correct="false">GET</answer>
+		    <answer Correct="false">PUT</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What HTTP stands for?">
+		    <answer Correct="false">Hypermedia Transfer to Ports</answer>
+		    <answer Correct="false">Hypertext Transmission in Parallel</answer>
+		    <answer Correct="true">Hypertext Transport Protocol</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is HTTP?">
+		    <answer Correct="false">A stateless protocol and a client/server protocol</answer>
+		    <answer Correct="true">A request/reply protocol, an application-layer protocol and a stateless protocol </answer>
+		    <answer Correct="false">An application-layer protocol only</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="If an HTTP reply has a status code of 404 what it means?">
+		    <answer Correct="false">Server Error: Service Unavailable</answer>
+		    <answer Correct="false">Client Error: Bad Request</answer>
+		    <answer Correct="true">Client Error: Page Not Found</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What HTML stands for?">
+		    <answer Correct="false">Hypermedia Markup Language</answer>
+		    <answer Correct="true">Hypertext Markup Language</answer>
+		    <answer Correct="false">Hypertext Multimedia Language</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What type of image is usually the favicon?">
+		    <answer Correct="true">*.ico</answer>
+		    <answer Correct="false">*.jpg</answer>
+		    <answer Correct="false">*.tif</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which practise is the best when programming websites?">
+		    <answer Correct="true">Write multiple files that separete HTML code, from styles and scripts</answer>
+		    <answer Correct="false">Write an HTML file that contains all the styles and scripts</answer>
+		    <answer Correct="false">Write a file that contains the HTML code and the scripts and a file that contains all the styles</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which heading element is the biggest (&lt;h1&gt;,&lt;h2&gt;, ...,&lt;h6&gt;?">
+		    <answer Correct="false">It doesn't matter, you can explicitly declare which heading will be the biggest</answer>
+		    <answer Correct="false">&lt;h6&gt; is the biggest heading element and &lt;h1&gt; is the smallest</answer>
+		    <answer Correct="true">&lt;h1&gt; is the biggest heading element and &lt;h6&gt; is the smallest</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Where should we put metadata (&lt;meta&gt;)?">
+		    <answer Correct="false">After &lt;html&gt;</answer>
+		    <answer Correct="false">Inside &lt;header&gt;</answer>
+		    <answer Correct="true">Inside &lt;head&gt;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What CSS stands for?">
+		    <answer Correct="false">Carefully Selected Styles</answer>
+		    <answer Correct="true">Cascading Style Sheets</answer>
+		    <answer Correct="false">Colorful Styling Sheets</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Which is the best option to link HTML with CSS?">
+		    <answer Correct="true">External style sheets</answer>
+		    <answer Correct="false">Embedded styles</answer>
+		    <answer Correct="false">Inline styles</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How can you set the position of an element to remain always the same, even if you scroll?">
+		    <answer Correct="false">You can define its position as absolute in CSS</answer>
+		    <answer Correct="false">You don't have to do anything, it's det by default</answer>
+		    <answer Correct="true">You can define its position as fixed in CSS</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What PHP Stands for?">
+		    <answer Correct="false">Parallel Hypertext Processing</answer>
+		    <answer Correct="true">PHP Hypertext Preprocessor</answer>
+		    <answer Correct="false">Parallel Hypermedia Processing</answer>  
 		</Question>
 	    </questions>
 	</easy>
@@ -151,239 +151,244 @@
 		    <answer Correct="false">Resolution, Retrieval</answer>
 		    <answer Correct="false">Resolution, Dereference</answer>
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What Client/Server Model(s) exist(s)?">
+		    <answer Correct="false">Traditional Client/Server only</answer>
+		    <answer Correct="true">Traditional Client/Server, Remote Evaluation (REV), Code on Demand (CD), Mobile Agent (MA)</answer>
+		    <answer Correct="false">Traditional Client/Server, Code on Demand (CD), Mobile Agent (MA)</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Select the correct answer:">
+		    <answer Correct="false">Traditional Client/Server Model is better than Code on Demand Model</answer>
+		    <answer Correct="false">Mobile Agent Model is the best Client/Server Model</answer>
+		    <answer Correct="true">There is no right and wrong Client/Server Model, it depends on the case</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following is not an advantage of Giant-Scale Services?">
+		    <answer Correct="false">Availability from multiple devices other than a PC</answer>
+		    <answer Correct="true">Services Updates are complex and take time</answer>
+		    <answer Correct="false">It facilitates access from anywhere at any time</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Why yield is more prefarable as a metric than uptime?">
+		    <answer Correct="false">Yield maps directly to how long time our server is available</answer>
+		    <answer Correct="false">Yield is easier to be calculated</answer>
+		    <answer Correct="true">Yield maps directly to user experience and reflects that not all moments have equal value</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="A web database is partitioned in 3 servers and one fails. Which statement is correct?">
+		    <answer Correct="true">Yield remains the same</answer>
+		    <answer Correct="false">Yield drops by 33.3% but harvest is stable</answer>
+		    <answer Correct="false">There is no effect in the operation of the service; replication takes care of this.</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which statement is correct?">
+		    <answer Correct="true">The higher the ratio of read-queries over updates in a service with replicated DB, 
+            the better it is for the service’s performance</answer>
+		    <answer Correct="false">In all internet services, the ratio of reads over writes is equal to one</answer>
+		    <answer Correct="false">The performance of an Internet service is not affected by the ration of reads over writes</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="A client request message is usually consisted of (the order matters):">
+		    <answer Correct="false">1) Request Line, 2) General Headers, 3) Entity Headers and 4) Request Headers</answer>
+		    <answer Correct="true">1) Request Line, 2) General Headers, 3) Request Headers and 4) Entity Headers</answer>
+		    <answer Correct="false">1) Request Headers, 2) Request Line, 3) General Headers and 4) Entity Headers</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What is DOM?">
+		    <answer Correct="false">A list with the contents of an ΗΤΜL file</answer>
+		    <answer Correct="false">A hierarchical encoding of an HTML file</answer>
+		    <answer Correct="true">A tree data structure capturing the contents of an HTML file</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What is the right syntax of an HTML element?">
+		    <answer Correct="false">&lt;p&gt;This is a paragraph.&lt;p&gt;</answer>
+		    <answer Correct="false">&lt;p id=&quot;example&quot;This is a paragraph./&gt;</answer>
+		    <answer Correct="true">&lt;p id=&quot;example&quot;&gt;This is a paragraph.&lt;/p&gt;</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following is correct?">
+		    <answer Correct="true">An ΗΤΜL file has «dynamic behaviour» if it's linked or has embedded elements expressed in a scripting language</answer>
+		    <answer Correct="false">An ΗΤΜL file has «dynamic behaviour» by default</answer>
+		    <answer Correct="false">An ΗΤΜL file has «dynamic behaviour» if it's linked or has embedded elements expressed in CSS</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="&lt;img src=&quot;elva.jpg&quot; alt=&quot;A picture of Elva&quot; title=&quot;Elva’s favourite toys&quot;&gt;. Where alt is used?">
+		    <answer Correct="false">It's just helpful if an image is not shown</answer>
+		    <answer Correct="true">It will be read out by screen readers, indexed by search engines, and displayed if the image is unavailable</answer>
+		    <answer Correct="false">It helps search engines to index the image and if the image is not shown it will be displayed</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the right syntax of CSS?">
+		    <answer Correct="true">selector { property1: value; property2: value; ... }</answer>
+		    <answer Correct="false">selector { property1: value, property2: value, ... }</answer>
+		    <answer Correct="false">selector { property1: value property2: value ... };</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which is the right way to set a paragraph having red letters with inline style?">
+		    <answer Correct="false">&lt;p style=&quot;font-color: red;&quot;&gt;This is a paragraph&lt;/p&gt;</answer>
+		    <answer Correct="true">&lt;p style=&quot;color: red;&quot;&gt;This is a paragraph&lt;/p&gt;</answer>
+		    <answer Correct="false">&lt;p style=&quot;font-stye: red;&quot;&gt;This is a paragraph&lt;/p&gt;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How can we link an external CSS file with an HTML file?">
+		    <answer Correct="false">&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; type=&quot;text/css&quot;&gt;, inside HTML header element</answer>
+		    <answer Correct="false">&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; type=&quot;text/css&quot;&gt;, inside HTML body element</answer>
+		    <answer Correct="true">&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; type=&quot;text/css&quot;&gt;, inside HTML head element</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What we achieve with the following CSS code: *{border: solid 1px black;}?">
+		    <answer Correct="false">Headings have a thin black border</answer>
+		    <answer Correct="false">Every element except from the headings has a thin black border</answer>
+		    <answer Correct="true">Every element has a thin black border</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the correct HTML for adding a background color?">
+		    <answer Correct="false">&lt;background-color&gt;yellow&lt;/background-color&gt;</answer>
+		    <answer Correct="true">&lt;body style=&quot;background-color:yellow;&quot;&gt;</answer>
+		    <answer Correct="false">&lt;body bg="yellow"&gt;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How do you add a background color for all &lt;h1&gt; elements?">
+		    <answer Correct="false">h1.all {background-color:red;}</answer>
+		    <answer Correct="false">all.h1 {background-color:red;}</answer>
+		    <answer Correct="true">h1 {background-color:red;}</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="PHP server scripts are surrounded by delimiters, which?">
+		    <answer Correct="true">&lt;?php...?&gt;</answer>
+		    <answer Correct="false">&lt;?php&gt;...&lt;/?&gt;</answer>
+		    <answer Correct="false">&lt;script&gt;...&lt;/script&gt;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What is the correct way to end a PHP statement?">
+		    <answer Correct="true">;</answer>
+		    <answer Correct="false">\n</answer>
+		    <answer Correct="false">It doesn't need anything</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which one of these PHP variables has an illegal name?">
+		    <answer Correct="false">$myVariable5</answer>
+		    <answer Correct="true">$my-Var</answer>
+		    <answer Correct="false">$my_Var_Table</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="How do you write &quot;Hello World&quot; in an alert box?">
+		    <answer Correct="false">msgBox(&quot;Hello World&quot;);</answer>
+		    <answer Correct="true">alert(&quot;Hello World&quot;);</answer>
+		    <answer Correct="false">alertBox(&quot;Hello World&quot;);</answer>  
 		</Question>
 	    </questions>
 	</medium>
 	<hard>
 	    <questions>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Failures in your data centre happen once a week and it takes 7 minutes to recover. What is your uptime?">
+		    <answer Correct="false">0.9999</answer>
+		    <answer Correct="true">0.999</answer>
+		    <answer Correct="false">0.995</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>
+		<Question Text="Failures in your data centre happen  once a week and it takes 7 minutes to recover. How can you realistically 
+            increase your uptime by an extra 9?">
+		    <answer Correct="false">Increase MTTF from 7 days to 70 days</answer>
+		    <answer Correct="true">Decrease MTTR from 7 minutes to 40 seconds</answer>
+		    <answer Correct="false">Double your outgoing network bandwidth</answer>
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="If a data center is down within 10  days 3 times, for 1’, 40’’ and 5’ respectively, what is its uptime?">
+		    <answer Correct="true">0.999</answer>
+		    <answer Correct="false">0.9999</answer>
+		    <answer Correct="false">0.99</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the key HTTP/2 advantages?">
+		    <answer Correct="false">Header compression, Server push and Stream Priority</answer>
+		    <answer Correct="false">Multiplexing, Header compression and Server push</answer>
+		    <answer Correct="true">Multiplexing, Header compression, Server push and Stream Priority</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the three basic principles, which dictate the priority of applying overlapping and conflicting CSS rules (the order matters)?">
+		    <answer Correct="false">1) Importance, 2) Source Order and 3)</answer>
+		    <answer Correct="false">1) Source Order, 2) Specificity and 3) Importance</answer>
+		    <answer Correct="true">1) Importance, 2) Specificity and 3) Source order</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What is the correct HTML for creating a hyperlink?">
+		    <answer Correct="true">&lt;a href=&quot;www.cs.ucy.ac.cy&quot;&gt;CS Department at UCY&lt;/a&gt;</answer>
+		    <answer Correct="false">&lt;a url=&quot;www.cs.ucy.ac.cy&quot;&gt;CS Department at UCY&lt;/a&gt;</answer>
+		    <answer Correct="false">&lt;a name=&quot;www.cs.ucy.ac.cy&quot;&gt;CS Department at UCY&lt;/a&gt;</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="An &lt;iframe&gt; is used to display a web page within a web page.">
+		    <answer Correct="false">False</answer>
+		    <answer Correct="true">True</answer>
+		    <answer Correct="false">There is no such thing as an &lt;iframe&gt;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How do you display a border like this: top=10px, bottom=5px, left=20px, right=1px?">
+		    <answer Correct="true">border-width:10px 1px 5px 20px;</answer>
+		    <answer Correct="false">border-width:10px 5px 20px 1px;</answer>
+		    <answer Correct="false">border-width:10px 20px 5px 1px;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How do you get information from a form that is submitted using the &quot;get&quot; method?">
+		    <answer Correct="true">$_GET[];</answer>
+		    <answer Correct="false">Form.GET;</answer>
+		    <answer Correct="false">Request.Form;</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the correct way to create a function in PHP?">
+		    <answer Correct="false">muFunction = new Function()</answer>
+		    <answer Correct="false">create myFunction()</answer>
+		    <answer Correct="true">function myFunction()</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="How do you create an array in PHP?">
+		    <answer Correct="false">$cars = array["Volvo", "BMW", "Toyota"];</answer>
+		    <answer Correct="false">$cars = "Volvo", "BMW", "Toyota";</answer>
+		    <answer Correct="true">$cars = array("Volvo", "BMW", "Toyota");</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="What is the correct JavaScript syntax to change the content of the HTML element below?">
+		    <answer Correct="false">#demo.innerHTML = &quot;Hello World!&quot;;</answer>
+		    <answer Correct="true">document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;</answer>
+		    <answer Correct="false">document.getElement(&quot;p&quot;).innerHTML = &quot;Hello World!&quot;;</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="How do you round the number 7.25, to the nearest integer in Javascript?">
+		    <answer Correct="false">rnd(7.25)</answer>
+		    <answer Correct="false">Math.rnd(7.25)</answer>
+		    <answer Correct="true">Math.round(7.25)</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="function make_bigger($num) { $num = $num * 2.2; }
+			$x = 5; make_bigger($x); print $x;">
+		    <answer Correct="true">5 will be printed</answer>
+		    <answer Correct="false">10.1 will be printed</answer>
+		    <answer Correct="false">11 will be pinted</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="function make_bigger(&amp;$num) { $num = $num * 2.2; }
+			$x = 5; make_bigger($x); print $x;">
+		    <answer Correct="false">5 will be printed</answer>
+		    <answer Correct="true">10.1 will be printed</answer>
+		    <answer Correct="false">11 will be pinted</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="&lt;?php $firstname=&quot;Victoria&quot;;?&gt;&lt;?php $fullname=&quot;$firstname&quot;.&quot;Kirst&quot;?&gt;
+			&lt;p&gt;Your full name is &lt;?= $fullname ?&gt;&lt;/p&gt;">
+		    <answer Correct="false">&quot;Υοur full name is VictoriaKirst&quot; will be printed</answer>
+		    <answer Correct="true">&quot;Υοur full name is  Kirst&quot; will be printed</answer>
+		    <answer Correct="false">&quot;Your full name is NULL Kirst&quot; will be printed</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the benefits of client-side scripting (JavaScript)?">
+		    <answer Correct="true">Usability, Efficiency and can respond to user actions</answer>
+		    <answer Correct="false">Security, Compatibility and Powerful</answer>
+		    <answer Correct="false">Security, Usability and Efficiency</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What are the benefits of server-side programming (PHP)?">
+		    <answer Correct="false">Usability, Efficiency and can respond to user actions</answer>
+		    <answer Correct="true">Security, Compatibility and Powerful</answer>
+		    <answer Correct="false">Security, Usability and Efficiency</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following is not a similarity between PHP and JavaScript?">
+		    <answer Correct="false">Both are interpreted, not compiled</answer>
+		    <answer Correct="false">Both are case-sensitive</answer>
+		    <answer Correct="true">Both are object-oriented</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following is not a difference between PHP and JavaScript?">
+		    <answer Correct="false">JS is more object-oriented</answer>
+		    <answer Correct="false">JS code runs on the client's browser, but PHP code runs on the web server</answer>
+		    <answer Correct="true">Case Sensitivity</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="Which of the following contains a reference to every variable which is currently available within the global scope of the PHP script?">
+		    <answer Correct="false">$_SESSION</answer>
+		    <answer Correct="true">$GLOBALS</answer>
+		    <answer Correct="false">$_SERVER</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the difference between GET and POST method in PHP?">
+		    <answer Correct="false">There is no difference</answer>
+		    <answer Correct="false">POST displays the form values entered in the URL of the address bar where as GET does not</answer>
+		    <answer Correct="true">GET displays the form values entered in the URL of the address bar where as POST does not</answer> 
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Which of the following is NOT a valid PHP comparison operator?">
+		    <answer Correct="true">&lt;=&gt;</answer>
+		    <answer Correct="false">&lt;&gt;</answer>
+		    <answer Correct="false">!=</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer> 
+		<Question Text="What is the purpose of $_SESSION[]?">
+		    <answer Correct="false">Used to register a global variable</answer>
+		    <answer Correct="false">Used to initialize a session</answer>
+		    <answer Correct="true">Used to store variables of the current session</answer>  
 		</Question>
-		<Question Text="question">
-		    <answer Correct="false">First choice</answer>
-		    <answer Correct="true">Second Choice</answer>
-		    <answer Correct="false">Third choice</answer>  
+		<Question Text="Which of the following is correct about NULL in PHP?">
+		    <answer Correct="false">A variable that has been assigned NULL evaluates to FALSE in a Boolean context</answer>
+		    <answer Correct="false">A variable that has been assigned NULL returns FALSE when tested with isset() function./answer>
+		    <answer Correct="true">Both of the above</answer> 
 		</Question>
 	    </questions>
 	</hard>
