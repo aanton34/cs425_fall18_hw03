@@ -55,13 +55,18 @@
 				?>>
 				<?php
 					if(isset($_POST['start'])){
-						$table = array();
 						session_destroy();
 						session_start();
+						$table = array();
+						for($i=0;$i<25;$i++){
+							$visitedEasy[$i] = 0;
+							$visitedMedium[$i] = 0;
+							$visitedHard[$i] = 0;
+						}
 						$_SESSION['table'] = $table;
-						echo "First question<br>";
 						$questionNum = rand(0,24);
 						echo "Number of Question = $questionNum<br>";
+						$visitedMedium[$questionNum] = 1;
 						$question = $xml->medium->questions->Question[$questionNum]["Text"];
 						$answer1 = $xml->medium->questions->Question[$questionNum]->answer[0];
 						$answer2 = $xml->medium->questions->Question[$questionNum]->answer[1];
@@ -76,6 +81,9 @@
 						$table1[0]="medium";
 						$table1[1]=$correctAnswer;
 						$_SESSION['table'][0] = $table1;
+						$_SESSION['visited_easy'] = $visitedEasy;
+						$_SESSION['visited_medium'] = $visitedMedium;
+						$_SESSION['visited_hard'] = $visitedHard;
 					}
 					if(isset($_POST['next'])){
 						$givenAnswer = $_POST['answer'];  
@@ -104,6 +112,24 @@
 						}
 						echo "Inside $difficulty<br>";
 						$questionNum = rand(0,24);
+						if($difficulty === "easy"){
+							while($_SESSION['visited_easy'][$questionNum] === 1){
+								$questionNum = rand(0,24);
+							}
+							$_SESSION['visited_easy'][$questionNum] = 1;
+						}
+						elseif($difficulty === "medium"){
+							while($_SESSION['visited_medium'][$questionNum] === 1){
+								$questionNum = rand(0,24);
+							}
+							$_SESSION['visited_medium'][$questionNum] = 1;
+						}
+						else{
+							while($_SESSION['visited_hard'][$questionNum] === 1){
+								$questionNum = rand(0,24);
+							}
+							$_SESSION['visited_hard'][$questionNum] = 1;
+						}
 						echo "Number of Question = $questionNum<br>";
 						$question = $xml->$difficulty->questions->Question[$questionNum]["Text"];
 						$answer1 = $xml->$difficulty->questions->Question[$questionNum]->answer[0];
@@ -133,16 +159,26 @@
 					}
 				?>
 				<h4>Question: <?php echo htmlspecialchars($question); ?></h4>
-				<input type="radio" name="answer" value="A" autocomplete="off"> <?php echo htmlspecialchars($answer1); ?></input><br>
-		  		<input type="radio" name="answer" value="B" autocomplete="off"> <?php echo htmlspecialchars($answer2); ?></input><br>
-		  		<input type="radio" name="answer" value="C" autocomplete="off"> <?php echo htmlspecialchars($answer3); ?></input><br>
+				<input type="radio" name="answer" value="A" autocomplete="off"> <?php echo htmlspecialchars($answer1);?></input><br>
+		  		<input type="radio" name="answer" value="B" autocomplete="off"> <?php echo htmlspecialchars($answer2);?></input><br>
+		  		<input type="radio" name="answer" value="C" autocomplete="off"> <?php echo htmlspecialchars($answer3);?></input><br>
 				<?php
-					if(sizeof($_SESSION['table']) < 10)
+					$numOfQuestion = sizeof($_SESSION['table']);
+					$questionsLeft = 10 - $numOfQuestion;
+					if($numOfQuestion < 10)
 						echo "<input type=\"submit\" name=\"next\" value=\"Next Question\">";
 					else
 						echo "<input type=\"submit\" name=\"finish\" value=\"Finish Game\">";
 				?>	
 				<input type="submit" name="end" value="End Game">
+				<div class="row">
+					<div class="column">
+						<p>Number of Question: <?php echo $numOfQuestion;?></p>
+					</div>
+					<div class="column">
+						<p>Questions Left: <?php echo $questionsLeft;?></p>
+					</div>
+   				</div>
 			</div>
 		</form>
 		<form id="score" action="index.php" method="post">
@@ -151,6 +187,9 @@
 					else echo 'style="display: none;"'; 
 				?>>
 				<?php
+					print_r ($_SESSION['visited_easy']);
+					print_r ($_SESSION['visited_medium']);
+					print_r ($_SESSION['visited_hard']);
 					$score = 0;
 					for($i = 0; $i < sizeof($_SESSION['table']); $i++){
 						if ($_SESSION['table'][$i][1] === $_SESSION['table'][$i][2]){
@@ -236,7 +275,7 @@
 						// Open the file to get existing content 
 						$open = file_get_contents($filename);
 						$val = $_POST['nickname'];
-						// Append a new person to the file 
+						// Append a new score to the file 
 						$open = $open . $val . "," . $total_score . "\n"; 
 						// Write the contents back to the file 
 						file_put_contents($filename, $open); 	
