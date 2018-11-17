@@ -41,7 +41,8 @@
 					elseif (isset($_POST['finish'])) echo 'style="display: none;"';
 					elseif (isset($_POST['yes'])) echo 'style="display: none;"';
 					elseif (isset($_POST['no'])) echo 'style="display: block;"';
-					elseif (isset($_POST['end'])) echo 'style="display: block;"';?>>
+					elseif (isset($_POST['end'])) echo 'style="display: block;"';
+				?>>
 				<h3>Welcome to the CS 425 Question Game!</h3>
 				<input type="submit" name="start" value="Start">
 			</div>
@@ -50,10 +51,13 @@
 			<div class="question" 
 				<?php if (isset($_POST['start'])) echo 'style="display: block;"';
 					elseif (isset($_POST['next'])) echo 'style="display: block;"';
-					else echo 'style="display: none;"';?>>
+					else echo 'style="display: none;"';
+				?>>
 				<?php
 					if(isset($_POST['start'])){
 						$table = array();
+						session_destroy();
+						session_start();
 						$_SESSION['table'] = $table;
 						echo "First question<br>";
 						$questionNum = rand(0,24);
@@ -128,12 +132,12 @@
 						print_r ($_SESSION['table'][sizeof($_SESSION['table'])-1]);
 					}
 				?>
-				<h4>Question: <?php echo $question; ?></h4>
-				<input type="radio" name="answer" value="A" autocomplete="off"> <?php echo $answer1; ?></input><br>
-		  		<input type="radio" name="answer" value="B" autocomplete="off"> <?php echo $answer2; ?></input><br>
-		  		<input type="radio" name="answer" value="C" autocomplete="off"> <?php echo $answer3; ?></input><br>
+				<h4>Question: <?php echo htmlspecialchars($question); ?></h4>
+				<input type="radio" name="answer" value="A" autocomplete="off"> <?php echo htmlspecialchars($answer1); ?></input><br>
+		  		<input type="radio" name="answer" value="B" autocomplete="off"> <?php echo htmlspecialchars($answer2); ?></input><br>
+		  		<input type="radio" name="answer" value="C" autocomplete="off"> <?php echo htmlspecialchars($answer3); ?></input><br>
 				<?php
-					if(sizeof($_SESSION['table']) < 5)
+					if(sizeof($_SESSION['table']) < 10)
 						echo "<input type=\"submit\" name=\"next\" value=\"Next Question\">";
 					else
 						echo "<input type=\"submit\" name=\"finish\" value=\"Finish Game\">";
@@ -144,7 +148,8 @@
 		<form id="score" action="index.php" method="post">
 			<div class="results" 
 				<?php if (isset($_POST['finish'])) echo 'style="display: block"';
-					else echo 'style="display: none;"'; ?>>
+					else echo 'style="display: none;"'; 
+				?>>
 				<?php
 					$score = 0;
 					for($i = 0; $i < sizeof($_SESSION['table']); $i++){
@@ -166,6 +171,7 @@
 						<th>Number of Question</th>
 						<th>Difficulty</th>
 						<th>You answered</th>
+						<th>Points Earned</th>
 					</tr>
 					<?php
 						for($i = 1; $i <= sizeof($_SESSION['table']); $i++){
@@ -178,6 +184,18 @@
 										echo "Correct";
 									else
 										echo "Wrong"; 
+							?></th>
+							<th><?php 
+									if ($_SESSION['table'][$i-1][1] === $_SESSION['table'][$i-1][2]){
+										if($_SESSION['table'][$i-1][0] === "medium")
+											echo "2"; 
+										elseif($_SESSION['table'][$i-1][0] === "easy")
+											echo "1"; 
+										else
+											echo "3"; 
+									}else{
+										echo "0"; 
+									}
 							?></th>
 						</tr>
 					<?php
@@ -193,14 +211,35 @@
 		<form id="enterName" action="index.php" method="post">
 			<div class="name"
 			<?php if (isset($_POST['yes'])) echo 'style="display: block;"';
-				else echo 'style="display: none;"'; ?>>
+				else echo 'style="display: none;"'; 
+			?>>
 				<h4>Please enter your nickname:</h4>
 				<input type="text" name="nickname" id="nickname" placeholder="Nickname..." maxlength="8" required><br>
 				<input type="submit" name="save" value="Save">
 				<?php
 					if(isset($_POST['save'])){
+						$total_score = 0;
+						for($i = 0; $i < sizeof($_SESSION['table']); $i++){
+							if ($_SESSION['table'][$i][1] === $_SESSION['table'][$i][2]){
+								if($_SESSION['table'][$i][0] === "medium")
+									$total_score = $total_score + 2;
+								elseif($_SESSION['table'][$i][0] === "easy")
+									$total_score = $total_score + 1;
+								else
+									$total_score = $total_score + 3;
+							}
+							else{
+								$total_score = $total_score + 0;
+							}
+						}
+						$filename = "scores.txt";
+						// Open the file to get existing content 
+						$open = file_get_contents($filename);
 						$val = $_POST['nickname'];
-						//save into file
+						// Append a new person to the file 
+						$open = $open . $val . "," . $total_score . "\n"; 
+						// Write the contents back to the file 
+						file_put_contents($filename, $open); 	
 					}
 				?>
 			</div>
