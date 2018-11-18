@@ -54,7 +54,42 @@
 #myBtn:hover {
     background-color: #555;
 }
-/* --------------------------------------------------------- */
+/* -------------------------------------------------------- */
+body {
+    background-color:  rgb(44, 43, 43);
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    align-content: center;
+}
+/* Style the container of index.php */
+.container, .row {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 60%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+/* Create two equal columns that floats next to each other for About Us Page */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes all the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/* -------------------------------------------------------- */
 /* CONTAINER */
 .container{
     margin-top: 60px;
