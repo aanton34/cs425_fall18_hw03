@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS425 Quiz Game</title>
     <meta name="keywords" content="HW3, CS425, Fall2018, PHP, Home Page">
@@ -13,18 +13,27 @@
     <meta name="description" content="Homework 3 for CS425 Fall2018, University of Cyprus - Home Page">
     <link rel="shortcut icon" href="favicon/question_block">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
 		// When the user clicks on the button, scroll to the top of the document
 		function topFunction() {
 	    	document.body.scrollTop = 0;
 	    	document.documentElement.scrollTop = 0;
 		}
+		function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
     </script>
 </head>
 <body>
-    <nav id="navbar">
+    <nav id="navbar" class="topnav">
         <ul>
-            <li><a href="index.php">Home Page</a></li>
+            <li><a href="index.php" class="active">Home Page</a></li>
             <li><a href="help.php">Help</a></li>
             <li><a href="scores.php">Scores Board</a></li>
         </ul>
@@ -38,6 +47,7 @@
 			<div class="start" 
 				<?php if (isset($_POST['start'])) echo 'style="display: none;"';
 					elseif (isset($_POST['next'])) echo 'style="display: none;"';
+					elseif (isset($_POST['save'])) echo 'style="display: none;"';
 					elseif (isset($_POST['finish'])) echo 'style="display: none;"';
 					elseif (isset($_POST['yes'])) echo 'style="display: none;"';
 					elseif (isset($_POST['no'])) echo 'style="display: block;"';
@@ -65,7 +75,6 @@
 						}
 						$_SESSION['table'] = $table;
 						$questionNum = rand(0,24);
-						echo "Number of Question = $questionNum<br>";
 						$visitedMedium[$questionNum] = 1;
 						$question = $xml->medium->questions->Question[$questionNum]["Text"];
 						$answer1 = $xml->medium->questions->Question[$questionNum]->answer[0];
@@ -94,7 +103,6 @@
 						elseif ($givenAnswer === "C")
 							$ans = 3;
 						$_SESSION['table'][sizeof($_SESSION['table'])-1][2] = $ans;
-						print_r ($_SESSION['table'][sizeof($_SESSION['table'])-1]);
 						if($_SESSION['table'][sizeof($_SESSION['table'])-1][1] === $_SESSION['table'][sizeof($_SESSION['table'])-1][2]){
 							if($_SESSION['table'][sizeof($_SESSION['table'])-1][0] === "medium")
 								$difficulty = "hard";
@@ -110,7 +118,6 @@
 							else
 								$difficulty = "medium";
 						}
-						echo "Inside $difficulty<br>";
 						$questionNum = rand(0,24);
 						if($difficulty === "easy"){
 							while($_SESSION['visited_easy'][$questionNum] === 1){
@@ -130,7 +137,6 @@
 							}
 							$_SESSION['visited_hard'][$questionNum] = 1;
 						}
-						echo "Number of Question = $questionNum<br>";
 						$question = $xml->$difficulty->questions->Question[$questionNum]["Text"];
 						$answer1 = $xml->$difficulty->questions->Question[$questionNum]->answer[0];
 						$answer2 = $xml->$difficulty->questions->Question[$questionNum]->answer[1];
@@ -155,13 +161,12 @@
 						elseif ($givenAnswer === "C")
 							$ans = 3;
 						$_SESSION['table'][sizeof($_SESSION['table'])-1][2] = $ans;
-						print_r ($_SESSION['table'][sizeof($_SESSION['table'])-1]);
 					}
 				?>
 				<h4>Question: <?php echo htmlspecialchars($question); ?></h4>
-				<input type="radio" name="answer" value="A" autocomplete="off"> <?php echo htmlspecialchars($answer1);?></input><br>
-		  		<input type="radio" name="answer" value="B" autocomplete="off"> <?php echo htmlspecialchars($answer2);?></input><br>
-		  		<input type="radio" name="answer" value="C" autocomplete="off"> <?php echo htmlspecialchars($answer3);?></input><br>
+				<input class="choice" type="radio" name="answer" value="A" autocomplete="off"> <?php echo htmlspecialchars($answer1);?></input><br>
+		  		<input class="choice" type="radio" name="answer" value="B" autocomplete="off"> <?php echo htmlspecialchars($answer2);?></input><br>
+		  		<input class="choice" type="radio" name="answer" value="C" autocomplete="off"> <?php echo htmlspecialchars($answer3);?></input><br>
 				<?php
 					$numOfQuestion = sizeof($_SESSION['table']);
 					$questionsLeft = 10 - $numOfQuestion;
@@ -187,10 +192,6 @@
 					else echo 'style="display: none;"'; 
 				?>>
 				<?php
-					print_r ($_SESSION['visited_easy']);
-					print_r ($_SESSION['visited_medium']);
-					print_r ($_SESSION['visited_hard']);
-					$score = 0;
 					for($i = 0; $i < sizeof($_SESSION['table']); $i++){
 						if ($_SESSION['table'][$i][1] === $_SESSION['table'][$i][2]){
 							if($_SESSION['table'][$i][0] === "medium")
@@ -215,28 +216,28 @@
 					<?php
 						for($i = 1; $i <= sizeof($_SESSION['table']); $i++){
 					?>
-						<tr>
-							<th><?php echo "$i"; ?></th>
-							<th><?php echo $_SESSION['table'][$i-1][0]; ?></th>
-							<th><?php 
-									if ($_SESSION['table'][$i-1][1] === $_SESSION['table'][$i-1][2])
-										echo "Correct";
-									else
-										echo "Wrong"; 
-							?></th>
-							<th><?php 
-									if ($_SESSION['table'][$i-1][1] === $_SESSION['table'][$i-1][2]){
-										if($_SESSION['table'][$i-1][0] === "medium")
-											echo "2"; 
-										elseif($_SESSION['table'][$i-1][0] === "easy")
-											echo "1"; 
-										else
-											echo "3"; 
-									}else{
-										echo "0"; 
-									}
-							?></th>
-						</tr>
+					<tr>
+						<th><?php echo "$i"; ?></th>
+						<th><?php echo $_SESSION['table'][$i-1][0]; ?></th>
+						<th><?php 
+							if ($_SESSION['table'][$i-1][1] === $_SESSION['table'][$i-1][2])
+								echo "Correct";
+							else
+								echo "Wrong"; 
+						?></th>
+						<th><?php 
+							if ($_SESSION['table'][$i-1][1] === $_SESSION['table'][$i-1][2]){
+								if($_SESSION['table'][$i-1][0] === "medium")
+									echo "2"; 
+								elseif($_SESSION['table'][$i-1][0] === "easy")
+									echo "1"; 
+								else
+									echo "3"; 
+							}else{
+									echo "0"; 
+							}
+						?></th>
+					</tr>
 					<?php
 						}
 					?>
@@ -255,6 +256,11 @@
 				<h4>Please enter your nickname:</h4>
 				<input type="text" name="nickname" id="nickname" placeholder="Nickname..." maxlength="8" required><br>
 				<input type="submit" name="save" value="Save">
+			</div>
+			<div class="message"
+			<?php if (isset($_POST['save'])) echo 'style="display: block;"';
+				else echo 'style="display: none;"';
+			?>>
 				<?php
 					if(isset($_POST['save'])){
 						$total_score = 0;
@@ -276,15 +282,26 @@
 						$open = file_get_contents($filename);
 						$val = $_POST['nickname'];
 						// Append a new score to the file 
-						$open = $open . $val . "," . $total_score . "\n"; 
-						// Write the contents back to the file 
-						file_put_contents($filename, $open); 	
+						if(!$open){
+							echo "<h4>Sorry, couldn't save your score.</h4>";
+							echo "<meta http-equiv=\"refresh\" content=\"3\">";
+						}							
+						else{
+							$open = $open . "\n" . $val . "," . $total_score;
+							// Write the contents back to the file 
+							file_put_contents($filename, $open); 
+							echo "<h4>Your score was successfully saved.</h4>";
+							echo "<meta http-equiv=\"refresh\" content=\"3\">";
+						}	
 					}
 				?>
 			</div>
 		</form>
     </div>
     <footer>
+		<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </footer>
 </body>

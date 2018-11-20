@@ -9,6 +9,7 @@
     <meta name="description" content="Homework 3 for CS425 Fall2018, University of Cyprus - Help Page">
     <link rel="shortcut icon" href="favicon/question_block">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
 	// When the user clicks on the button, scroll to the top of the document
 	function topFunction() {
@@ -21,7 +22,7 @@
     <nav id="navbar">
         <ul>
             <li><a href="index.php">Home Page</a></li>
-            <li><a href="help.php">Help</a></li>
+            <li><a href="help.php" class="active">Help</a></li>
             <li><a href="scores.php">Scores Board</a></li>
         </ul>
     </nav>  
@@ -44,6 +45,9 @@
 		<p id="goodLuck">Good Luck!</p>
 	</div>
     <footer>
+		<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </footer>
 </body>

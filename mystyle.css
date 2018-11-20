@@ -12,10 +12,11 @@
     margin: 0;
     overflow: hidden;
     /* Add a black background color to the top navigation */
-    background-color: #3B5998;
+    background-color: #660066;
 }
 /* Style the links inside the navigation bar */
 #navbar li a {
+	font-weight: bold;
     float: left;
     display: block;
     color: white;
@@ -26,11 +27,16 @@
 #navbar li a:hover:not(.active) {
     opacity: 0.7;
 }
-/* Responsive Navigation Bar */
+/* Add an active class to highlight the current page */
+.active {
+    opacity: 0.5;
+}
 @media screen and (max-width: 600px) {
-    #navbar li a {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive li a {
         float: none;
         display: block;
+        text-align: left;
     }
 }
 /* --------------------------------------------------------- */
@@ -44,7 +50,8 @@
     font-size: 14px;
     border: none;
     outline: none;
-    background-color: #3B5998;
+    background-color: #660066;
+	font-weight: bold;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -55,27 +62,53 @@
     background-color: #555;
 }
 /* -------------------------------------------------------- */
+html{
+	height: 100%;
+}
 body {
-    background-color:  rgb(44, 43, 43);
+    background-image: url(background/Quizzes1.jpg);
+	background-color: grey; /* Used if the image is not available */
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+	background-size: cover;
     font-size: 20px;
     font-family: 'Segoe UI';
     align-content: center;
+	height: 100%;
+}
+@media screen and (max-width: 600px) {
+    body{
+		background-repeat: no-repeat;
+		font-size: 16px;
+	}
 }
 /* Style the container of index.php */
-.container, .row {
+.container {
+	margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    width: 60%;
-    background-color: #f2f2f2;
+    width: 50%;
+    background-color: #f2f2f9;
     padding: 10px;
     text-align: center;
+	align-content: center;
+}
+@media screen and (max-width: 600px) {
+    .container{
+		width: 85%;
+	}
 }
 /* Create two equal columns that floats next to each other for About Us Page */
+.row{
+	width:100%;
+}
 .column {
+	display: block;
     float: left;
     width: 50%;
-    padding: 10px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -89,8 +122,36 @@ body {
         width: 100%;
     }
 }
-/* -------------------------------------------------------- */
-/* CONTAINER */
-.container{
-    margin-top: 60px;
+/* Footer */
+.fa {
+	bottom: 10px;
+  	padding: 15px;
+  	font-size: 15px;
+  	width: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  	background: #3B5998;
+	left: 10px;
+  	color: white;
+}
+.fa-twitter {
+  	background: #55ACEE;
+	left: 60px;
+  	color: white;
+}
+.fa-instagram {
+  	background: #125688;
+	left: 110px;
+  	color: white;
+}
+#scoreList, #quizScores{
+	margin-left: auto;
+    margin-right: auto;
 }
